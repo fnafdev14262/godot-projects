@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://cxrg4rcr7prgf"]
+
+[ext_resource type="Script" uid="uid://dhmkfo7bkecj3" path="res://scripts/main_menu.gd" id="1_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://dqida48v2bg3m" path="res://assets/images/stickman dude.png" id="2_bqqt6"]
+
+[node name="Main_menu" type="Control" unique_id=1460939520]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.052
+offset_bottom = -33.696045
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1, 1.0517795)
+mouse_filter = 1
+script = ExtResource("1_ekxnf")
+
+[node name="Label" type="Label" parent="." unique_id=1410429750]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.31500003
+anchor_top = 0.040000003
+anchor_right = 0.68
+anchor_bottom = 0.307
+offset_left = 0.1199646
+offset_top = -0.2491951
+offset_right = -0.35998535
+offset_bottom = -0.26519775
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Hasil  Pekerjaan
+Dalam Liburan"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1365496353]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.41200003
+anchor_top = 0.30400002
+anchor_right = 0.611
+anchor_bottom = 0.416
+offset_left = 0.37597656
+offset_top = -0.182724
+offset_right = 0.12799072
+offset_bottom = 0.24130249
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "Hasil"
+
+[node name="Button2" type="Button" parent="." unique_id=1435049525]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.40800002
+anchor_top = 0.6
+anchor_right = 0.60400003
+anchor_bottom = 0.68200004
+offset_left = -0.016021729
+offset_top = 0.0647583
+offset_right = 0.19195557
+offset_bottom = -0.071258545
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "About Me"
+
+[node name="StickmanDude" type="Sprite2D" parent="." unique_id=502766775]
+position = Vector2(193.99997, 419.99997)
+scale = Vector2(0.40433213, 0.47111914)
+texture = ExtResource("2_bqqt6")
+
+[node name="StickmanDude2" type="Sprite2D" parent="." unique_id=336202275]
+position = Vector2(928.9999, 420)
+scale = Vector2(0.40433213, 0.47111914)
+texture = ExtResource("2_bqqt6")
+
+[node name="Button3" type="Button" parent="." unique_id=5913986]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.41000003
+anchor_top = 0.46500003
+anchor_right = 0.606
+anchor_bottom = 0.54700005
+offset_left = -0.32003784
+offset_top = 0.07397461
+offset_right = -0.11199951
+offset_bottom = -0.062042236
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "Keluar"

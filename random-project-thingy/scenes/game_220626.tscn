@@ -1,0 +1,118 @@
+[gd_scene format=3 uid="uid://3xjm0udke4a8"]
+
+[ext_resource type="Script" uid="uid://blflkuelq2v52" path="res://scripts/main.gd" id="1_h5nfa"]
+[ext_resource type="AudioStream" uid="uid://nfpm1x0xpv8c" path="res://assets/sfx/explosion-meme_dTCfAHs.mp3" id="2_pxgrt"]
+[ext_resource type="AudioStream" uid="uid://cwirfcrchyp5m" path="res://assets/sfx/classic_hurt.mp3" id="3_as135"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xm2m"]
+bg_color = Color(0.14406255, 0.14406255, 0.14406249, 1)
+border_color = Color(0.28118682, 0.2811869, 0.2811867, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h2yge"]
+bg_color = Color(1, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="Main" type="Node" unique_id=56048322]
+script = ExtResource("1_h5nfa")
+
+[node name="Label" type="Label" parent="." unique_id=518290614]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -248.0
+offset_top = -365.0
+offset_right = 226.0
+offset_bottom = -62.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 73
+text = "Del Label"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="." unique_id=428103264]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -242.0
+offset_top = -159.0
+offset_right = 232.0
+offset_bottom = 144.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 73
+text = " "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer2D1" type="AudioStreamPlayer2D" parent="." unique_id=1968610953]
+stream = ExtResource("2_pxgrt")
+volume_db = 24.0
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=1332167125]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -262.0
+offset_top = 142.0
+offset_right = 252.0
+offset_bottom = 210.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_0xm2m")
+theme_override_styles/fill = SubResource("StyleBoxFlat_h2yge")
+value = 100.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1235969156]
+stream = ExtResource("3_as135")
+volume_db = 24.0
+
+[node name="Label4" type="Label" parent="." unique_id=1799734291]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -280.0
+offset_top = -223.0
+offset_right = 194.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 1.5829926
+theme_override_font_sizes/font_size = 73
+text = "Del Label"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="." unique_id=746748334]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 322.0
+offset_top = 219.99994
+offset_right = 796.0
+offset_bottom = 522.99994
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -1.5463357
+theme_override_font_sizes/font_size = 73
+text = "Del Label"
+horizontal_alignment = 1
+vertical_alignment = 1

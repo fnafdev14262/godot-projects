@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://3e30f0b7pgol"]
+
+[ext_resource type="Script" uid="uid://cktq2i6hb06we" path="res://about.gd" id="1_t5v5y"]
+
+[node name="about\'" type="Control" unique_id=238363182]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1152.0
+offset_bottom = -648.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_t5v5y")
+
+[node name="Label" type="Label" parent="." unique_id=1099471555]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 23.0
+offset_right = 794.0
+offset_bottom = 82.0
+theme_override_font_sizes/font_size = 20
+text = "hello i am a small and aspiring game dev. 
+game dev and coding are my passion."
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=843993451]
+layout_mode = 0
+offset_left = 928.0
+offset_top = 566.0
+offset_right = 1111.0
+offset_bottom = 618.0
+text = "Kembali"
+
+[node name="Label2" type="Label" parent="." unique_id=928858874]
+layout_mode = 0
+offset_left = 246.0
+offset_top = 126.0
+offset_right = 531.0
+offset_bottom = 178.0
+text = "this so far is my only godot project.
+but i have other projects in python."
+
+[node name="Label3" type="Label" parent="." unique_id=1158185419]
+layout_mode = 0
+offset_left = 247.0
+offset_top = 196.0
+offset_right = 631.0
+offset_bottom = 245.0
+text = "if you want to see my other projects go to 
+https://github.com/fnafdev14262/pynotes-python"
+
+[node name="Label4" type="Label" parent="." unique_id=739260959]
+layout_mode = 0
+offset_left = 254.0
+offset_top = 265.0
+offset_right = 709.0
+offset_bottom = 314.0
+text = "my dream is becoming a indie game maker.
+and designing a game that YOU yes YOU would like to play."
