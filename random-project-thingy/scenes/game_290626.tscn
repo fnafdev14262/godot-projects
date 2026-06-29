@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bd6lg11f21a1y"]
+
+[ext_resource type="Script" uid="uid://bme24vpmjhpdt" path="res://assets/game_290626.gd" id="1_yfkjk"]
+[ext_resource type="Texture2D" uid="uid://dvyoscp1u0qw" path="res://assets/images/images__1_-removebg-preview.png" id="2_lne7q"]
+[ext_resource type="AudioStream" uid="uid://cv6si54acn4s7" path="res://assets/sfx/universfield-computer-mouse-click-352734.mp3" id="3_lne7q"]
+
+[node name="Node2D" type="Control" unique_id=341293016]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1152.0
+offset_bottom = -648.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yfkjk")
+
+[node name="Button" type="Button" parent="." unique_id=506109097]
+layout_mode = 0
+offset_left = 316.0
+offset_top = 175.0
+offset_right = 771.0
+offset_bottom = 630.0
+scale = Vector2(0.8946559, 0.9014442)
+icon = ExtResource("2_lne7q")
+
+[node name="Label" type="Label" parent="." unique_id=1667042605]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 29.0
+offset_right = 771.0
+offset_bottom = 148.0
+theme_override_font_sizes/font_size = 40
+text = "score you not sseee this"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=165075495]
+stream = ExtResource("3_lne7q")
+volume_db = 24.0
